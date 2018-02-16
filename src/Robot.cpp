@@ -13,7 +13,7 @@ class wing{
 bool isrampreleased;
 public:
 	wing(int module_number):lift1(module_number, 0),
-							//lift2(module_number, 1),
+							lift2(module_number, 1),
 							drop(module_number/*side one or side 2*/),
 							isrampreleased(false){}
 	void KeepExtended(){
