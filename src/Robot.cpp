@@ -25,7 +25,7 @@ public:
 	void RaiseRamp(){
 		if(isrampreleased==true){
 		lift1.Set(true);
-		//lift2.Set(true);
+		lift2.Set(true);
 		}}
 	void checkReleaseTimer(){
 
