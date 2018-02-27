@@ -183,6 +183,7 @@ public:
 				left = ::SmartDashboard::GetBoolean("Left", true);
 				right = ::SmartDashboard::GetBoolean("Right", true);
 
+		gripangle.Set(DoubleSolenoid::kReverse);
 	}
 	double startingangle;//angle the robot initializes with. allows for the robot to be placed at any angle
 	double turnangle;
